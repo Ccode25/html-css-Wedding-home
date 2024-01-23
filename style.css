@@ -1,0 +1,45 @@
+img {
+  height: 500px;
+  width: 200ox;
+  border: 10px solid #a79e95;
+  margin-top: 0px;
+  border-radius: 25px;
+
+}
+
+
+body {
+  background-color: #dfd8cd;
+}
+
+#container {
+  width: 50%;
+  margin-left: 25%;
+  text-align: center;;
+}
+
+#text1 {
+  color: #131110;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 400;
+  font-size: larger;
+
+
+}
+
+#text2 {
+  color: #131110;
+  font-family: 'Playfair Display', serif; 
+  font-size: larger;
+}
+
+#text3 {
+  color: #131110;
+  font-family: 'Concert One', sans-serif;
+  font-weight: 100;
+  font-size: larger;
+}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
