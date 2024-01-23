@@ -1,38 +1,32 @@
-img {
-  height: 500px;
-  width: 200ox;
-  border: 10px solid #a79e95;
-  margin-top: 0px;
-  border-radius: 25px;
-
-}
-
-
 body {
   background-color: #dfd8cd;
+  margin: 0; /* Remove default body margin */
 }
 
-#container {
-  width: 50%;
-  margin-left: 25%;
-  text-align: center;;
+img {
+  border: 10px solid #a79e95;
+  border-radius: 25px;
+  box-sizing: border-box; /* Include border in image dimensions */
+  max-width: 20%;
+}
+.box {
+  background-color: #dfd8cd;
+  text-align: center;
+  padding: 5px; /* Add padding for better spacing */
+  margin: 5px; /* Add margin for better spacing */
 }
 
 #text1 {
   color: #131110;
   font-family: 'Dancing Script', cursive;
   font-weight: 400;
-  font-size: larger;
- 
-
-
+  font-size: xx-large; /* Adjust font size for better emphasis */
 }
 
 #text2 {
   color: #131110;
   font-family: 'Playfair Display', serif; 
-  font-size: larger;
- 
+  font-size: x-large; /* Adjust font size for better emphasis */
 }
 
 #text3 {
@@ -42,6 +36,22 @@ body {
   font-size: larger;
 }
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+#text4 {
+  font-family: 'Dancing Script', cursive;
+}
+
+div.footer > p {
+  background-color: #a79e95;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 0; /* Remove default margin for the footer paragraph */
+}
+
+/* Additional style for the hr element */
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, transparent, #a79e95, transparent);
+  margin: 20px 0; /* Add margin for better spacing */
+}
